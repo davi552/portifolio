@@ -451,10 +451,6 @@ button{
         height: 70%;
     }
 
-    .content-container2{
-        
-    }
-
     .project-container{
         padding-top: 60px;
     }
@@ -467,21 +463,6 @@ button{
     .position-container{
         height: 180px;
     }
-
-    .right {
-        
-    }
-    
-    .left {
-    }
-    
-    .project-card {
-        
-    }
-    
-    .project-card1 {
-        
-    }
     
     .card-reverse {
         padding: 0;
@@ -490,17 +471,6 @@ button{
     
     .project-image {
         width: 200px;
-    }
-    
-    .image-reverse {
-        
-    }
-    
-    .project-text {
-    }
-    
-    .projeto-2{
-
     }
 }
 

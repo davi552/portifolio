@@ -4,6 +4,10 @@
     margin: 0;
 }
 
+.home-background{
+    display: none;
+}
+
 a{
     text-decoration: none;
     font-family: 'Oswald', sans-serif;
@@ -556,6 +560,66 @@ button{
 
     .content-contato{
         width: 90%;
+    }
+}
+
+@media (max-width:600px){
+    .home-background{
+        display: flex;
+        height: 100vh;
+        background-image: url('./nubelson-fernandes-iE71-TMrrkE-unsplash\ \(2\).jpg');
+        background-position: 40% 60%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 0;
+        width: 100%;
+    }
+
+
+
+    .hero-container{
+        position: relative;
+        background-color: rgba(0, 0, 0, 0);
+        background-image: none;
+    }
+
+    .content-container{
+        position: relative;
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    .profile-container{
+        position: relative;
+        background-color: rgba(0, 0, 0, 0);
+        background-image: none;
+    }
+
+    .content-container1{
+        position: relative;
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    .project-container {
+        position: relative;
+        background-color: rgba(0, 0, 0, 0);
+        background-image: none;
+    }
+    
+    .content-container2{
+        position: relative;
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    .content-container3{
+        position: relative;
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    .container-contato{
+        position: relative;
+        background-color: rgba(0, 0, 0, 0);
+        background-image: none;
     }
 }
 
